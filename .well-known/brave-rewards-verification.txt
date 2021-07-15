@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: sambohamdan.github.io
+Token: f590366968f48a6f6edcc647df0875d645a49cf3be9627c1f3fa5441052e98ec
