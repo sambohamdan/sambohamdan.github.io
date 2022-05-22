@@ -262,3 +262,7 @@ polygon.arrow-top {
 .main-title{
     font-family: 'Indie Flower', cursive;
 }
+
+.logo-container .logo {
+  cursor: pointer;
+}
