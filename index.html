@@ -441,11 +441,16 @@ _________________________________________________________
             </div>
             <!-- /.6-->
             <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
-                <p>Copyright © 2022 Sam Bo Hamdan</p>
+                <p>Copyright © <span id="copyright-year"></span> Sam Bo Hamdan</p>
             </div>
         </div>
     </div>
 </footer>
+<script>
+    const copyrightYear = document.getElementById("copyright-year");
+    const currentYear = new Date().getFullYear();
+    copyrightYear.innerText = currentYear;
+</script>
 <!-- JavaScript files-->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
