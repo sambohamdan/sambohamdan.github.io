@@ -294,11 +294,9 @@ function map() {
             scrollWheelZoom: false
         });
 
-        var Stamen_TonerLite = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
-            subdomains: 'abcd',
-            minZoom: 0,
+       var Stamen_TonerLite = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 20,
-            ext: 'png'
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         });
 
         Stamen_TonerLite.addTo(map);
@@ -317,6 +315,7 @@ function map() {
                 maxWidth: 600,
                 className: 'map-custom-popup'
             })
+            console.log(L);
 
         }
     }
