@@ -312,7 +312,7 @@ function map() {
                 icon: icon
             }).addTo(map);
 
-            marker.bindPopup("<div class='p-4'><h5>Info Window Content</h5><p>I live currently in Bielefeld Germany</p></div>", {
+            marker.bindPopup("<div class='p-4'><p>Don't hesitate to contact me if you have a question :)</p></div>", {
                 minwidth: 200,
                 maxWidth: 600,
                 className: 'map-custom-popup'
